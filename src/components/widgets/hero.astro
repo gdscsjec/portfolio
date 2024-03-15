@@ -1,7 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import { Icon } from "astro-icon/components";
-
+import { Spotlight } from "@/components/ui/spotlight";
 import ProfileImage from "@/assets/profile.png";
 
 interface SocialItem {
@@ -33,6 +33,16 @@ const socials: SocialItem[] = [
   <div
     class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
   >
+    <Spotlight
+      className="-top-40 left-0 md:left-60 md:-top-20"
+      fill="#254e72"
+      client:load
+    />
+    <Spotlight
+    className="-top-40 left-0 md:left-60 md:-top-20"
+    fill="#254e72"
+    client:load
+  />
     <div
       class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
     >
