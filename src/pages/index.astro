@@ -1,10 +1,12 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import Hero from "@/components/widgets/hero.astro";
+import { BentoGridThirdDemo as About } from "@/components/widgets/about";
 ---
 
 <Layout title="Anish Shobith P S">
 	<main>
 		<Hero />
+		<About client:load/>
 	</main>
 </Layout>

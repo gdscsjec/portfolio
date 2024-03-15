@@ -8,7 +8,7 @@
       ],
       "@/components/*": [
         "./src/components/*"
-      ]
+      ],
     },
     "jsx": "react-jsx",
     "jsxImportSource": "react"
